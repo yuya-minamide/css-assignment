@@ -1,0 +1,171 @@
+body {
+	text-align: center;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+	appearance: none;
+}
+
+.title {
+	font-family: "Rubik", sans-serif;
+}
+
+.title span {
+	color: #f17e0c;
+}
+
+#header {
+	background-color: #303030;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#header-title {
+	color: #ffffff;
+	display: inline;
+	font-size: 26px;
+	padding: 14px 0 14px 10px;
+}
+
+#header-nav,
+ul,
+li {
+	display: inline;
+}
+
+#header-nav a {
+	color: #ffffff;
+	margin-right: 14px;
+	padding: 6px;
+}
+
+#header-nav a:hover {
+	background-color: #444444;
+	color: #f17e0c;
+}
+
+#main-article {
+	background-image: url(https://images.unsplash.com/photo-1487730116645-74489c95b41b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+	background-position: top;
+}
+
+#main-article h1 {
+	color: #ffffff;
+	font-size: 44px;
+	padding-top: 80px;
+}
+
+#main-article p {
+	color: #ffffff;
+	line-height: 1.5;
+	font-size: 18px;
+	padding: 40px 0;
+}
+
+#main-article button {
+	padding: 16px;
+	background-color: #303030;
+	color: #ffffff;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+#main-article button:hover {
+	background-color: #444444;
+	color: #f17e0c;
+}
+
+#about-yurucamp {
+	background-color: #303030;
+}
+
+#about-yurucamp h2 {
+	color: #ffffff;
+	font-size: 24px;
+	padding: 40px 0;
+}
+
+#about-yurucamp p {
+	color: #ffffff;
+	line-height: 2;
+	margin: 0 80px;
+}
+
+#about-yurucamp button {
+	padding: 16px;
+	background-color: #ffffff;
+	margin: 40px 0 120px 0;
+	font-size: 20px;
+}
+
+#about-yurucamp button:hover {
+	background-color: #444444;
+	color: #f17e0c;
+}
+
+#rent-section {
+	background-color: #f17e0c;
+}
+
+.icon {
+	padding-top: 40px;
+}
+
+.section-title {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+.section-explanation {
+	font-size: 16px;
+	padding: 40px 0 70px 0;
+	margin: 0 40px;
+}
+
+#footer {
+	background-color: #303030;
+}
+
+#footer p {
+	color: #ffffff;
+	padding: 30px 0;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+	#header {
+		display: block;
+		padding-top: 20px;
+	}
+
+	#header-title {
+		padding-top: 20px;
+	}
+
+	#header-nav,
+	ul,
+	li {
+		display: block;
+	}
+
+	#header-nav {
+		margin-top: 10px;
+	}
+
+	#header-nav a {
+		padding: 12px;
+		display: block;
+		margin: 0;
+	}
+}
